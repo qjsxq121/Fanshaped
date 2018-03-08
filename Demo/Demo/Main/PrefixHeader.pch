@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  Demo
+//
+//  Created by lq on 2018/3/6.
+//  Copyright © 2018年 YiYoff. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "BaseConfig.h"
+#import "UIView+MyExtention.h"
+
+#endif
+#endif /* PrefixHeader_pch */
